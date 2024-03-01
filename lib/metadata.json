@@ -1,0 +1,1673 @@
+{
+  "vaultName": "Jump and Stuff Design Doc",
+  "lastExport": 1709279906873,
+  "pluginVersion": "1.8.0",
+  "validBodyClasses": "publish css-settings-manager theme-dark",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "Abilities & States/Bash.md",
+    "Abilities & States/Belly Slide.md",
+    "Abilities & States/Belly Slide Dash.md",
+    "Abilities & States/Belly Slide Hop.md",
+    "Abilities & States/Bonk.md",
+    "Abilities & States/Burrow.md",
+    "Abilities & States/Burrow Dash.md",
+    "Abilities & States/Crouch.md",
+    "Abilities & States/Crouch Walk.md",
+    "Abilities & States/Dash Air.md",
+    "Abilities & States/Dash Climb.md",
+    "Abilities & States/Dash Down.md",
+    "Abilities & States/Dash Ground.md",
+    "Abilities & States/Dash Jump.md",
+    "Abilities & States/Dash Omni.md",
+    "Abilities & States/Dash Up.md",
+    "Abilities & States/Dash Wall.md",
+    "Abilities & States/Dive.md",
+    "Abilities & States/Dive Hop.md",
+    "Abilities & States/Double Jump.md",
+    "Abilities & States/Fall.md",
+    "Abilities & States/Glide.md",
+    "Abilities & States/Grapple Hook.md",
+    "Abilities & States/Grind.md",
+    "Abilities & States/Ground Pound.md",
+    "Abilities & States/Ground Pound Bounce.md",
+    "Abilities & States/Ground Pound Jump.md",
+    "Abilities & States/Ground Pound Land.md",
+    "Abilities & States/Idle.md",
+    "Abilities & States/Jump.md",
+    "Abilities & States/Jump Apex.md",
+    "Abilities & States/Jump Consecutive.md",
+    "Abilities & States/Jump Crouch.md",
+    "Abilities & States/Jump Crouch Charged.md",
+    "Abilities & States/Jump Flip.md",
+    "Abilities & States/Long Jump.md",
+    "Abilities & States/Pogo.md",
+    "Abilities & States/Roll.md",
+    "Abilities & States/Roll Dash.md",
+    "Abilities & States/Roll Jump.md",
+    "Abilities & States/Shinespark.md",
+    "Abilities & States/Skid.md",
+    "Abilities & States/Speed Boost.md",
+    "Abilities & States/Spin.md",
+    "Abilities & States/Swim.md",
+    "Abilities & States/Swim Dash.md",
+    "Abilities & States/Trapeze.md",
+    "Abilities & States/Walk.md",
+    "Abilities & States/Wall Climb.md",
+    "Abilities & States/Wall Grab.md",
+    "Abilities & States/Wall Jump.md",
+    "Abilities & States/Wall Run.md",
+    "Abilities & States/Wall Slide.md",
+    "Actor/Enemies/Chaser.md",
+    "Actor/Enemies/Chomper.md",
+    "Actor/Enemies/Spike E Top.md",
+    "Actor/Enemies/Spiked Jumper.md",
+    "Actor/Enemies/Wall E Crawler.md",
+    "Actor/Player.md",
+    "Articles/Game Juice.md",
+    "Articles/How to make a platformer feel good.md",
+    "Categories/Abilities.md",
+    "Categories/Dashes.md",
+    "Categories/Enemies.md",
+    "Categories/Environments.md",
+    "Categories/Hazards.md",
+    "Categories/Inspirations.md",
+    "Categories/Locations.md",
+    "Categories/Mechanics.md",
+    "Categories/Platforms.md",
+    "Categories/States.md",
+    "Categories/Systems.md",
+    "Categories/Upgrades.md",
+    "Controls/Controls.md",
+    "Controls/Right Stick.md",
+    "Enviroments/Lava.md",
+    "Enviroments/Sand.md",
+    "Enviroments/Snow.md",
+    "Enviroments/Water.md",
+    "Enviroments/Wind.md",
+    "Functions/Gravity.md",
+    "Game Modes/Balloon Hunt.md",
+    "Game Modes/Challenge Runs.md",
+    "Game Modes/Floor is Lava.md",
+    "Game Modes/Randomizer.md",
+    "Games/Genre/Metroidvania.md",
+    "Games/Series/Guacamelee Series.md",
+    "Games/Series/Mario Series.md",
+    "Games/Series/Metroid Series.md",
+    "Games/Series/Ori Series.md",
+    "Games/A Robot Named Fight.md",
+    "Games/Banjo Tooie.md",
+    "Games/Celeste.md",
+    "Games/Convergence LoL.md",
+    "Games/Demon Turf Neon Splash.md",
+    "Games/Disney Illusion Island.md",
+    "Games/Donkey Kong Tropical Freeze.md",
+    "Games/Guacamelee.md",
+    "Games/Guacamelee 2.md",
+    "Games/Haak.md",
+    "Games/Hollow Knight.md",
+    "Games/Insect Adventure.md",
+    "Games/Islets.md",
+    "Games/Lone Fungus.md",
+    "Games/Metroid Dread.md",
+    "Games/Ori and the Blind Forest.md",
+    "Games/Ori and the Will of the Wisps.md",
+    "Games/Prince of Persia Lost Crown.md",
+    "Games/Sheepo.md",
+    "Games/Steamworld Dig 2.md",
+    "Games/Super Fancy Pants Adventure.md",
+    "Games/Super Mario Odyssey.md",
+    "Games/Super Mario Wonder.md",
+    "Games/Super Mario World.md",
+    "Games/Super Meat Boy.md",
+    "Games/The End is Neigh.md",
+    "Games/Yooka-Laylee and the Impossible Lair.md",
+    "Godot/Footstep Plugin.md",
+    "Godot/Godot.md",
+    "Godot/Godot Fubars.md",
+    "Godot/Godot Plugins.md",
+    "Godot/Music Plugin.md",
+    "Locations/Cave.md",
+    "Locations/Cold.md",
+    "Locations/Desert.md",
+    "Locations/Forest.md",
+    "Locations/Grotto.md",
+    "Locations/Hot.md",
+    "Locations/Under Water.md",
+    "Mechanics/Other Games/Pspeed.md",
+    "Mechanics/Bonk.md",
+    "Mechanics/Ledge Jump Boost.md",
+    "Mechanics/Regrab.md",
+    "Mechanics/Stop On Ledge.md",
+    "Menus/Map.md",
+    "Menus/Stats Screen.md",
+    "Objects/Hazards/Falling Spike.md",
+    "Objects/Hazards/Moving Spike.md",
+    "Objects/Hazards/No Damage Spikes.md",
+    "Objects/Hazards/Retractable Spike.md",
+    "Objects/Hazards/Smasher.md",
+    "Objects/Hazards/Spinning Hazard.md",
+    "Objects/Hazards/Triggered Turret.md",
+    "Objects/Hazards/Turret.md",
+    "Objects/Interactables/Bump Block.md",
+    "Objects/Interactables/Grind Rail.md",
+    "Objects/Interactables/Trapeze Bar.md",
+    "Objects/Interactables/Waypoint.md",
+    "Objects/Platforms/Countdown Platform.md",
+    "Objects/Platforms/Direction Changing Platform.md",
+    "Objects/Platforms/Disappearing Platform.md",
+    "Objects/Platforms/Expanding Platform.md",
+    "Objects/Platforms/Falling Platform.md",
+    "Objects/Platforms/Flip Platform.md",
+    "Objects/Platforms/Floating Platform.md",
+    "Objects/Platforms/Moving Platform.md",
+    "Objects/Platforms/Path Follow Platform.md",
+    "Objects/Platforms/Semisolid.md",
+    "Objects/Platforms/Shrinking Platform.md",
+    "Objects/Platforms/Stretching Platform.md",
+    "Objects/Prefab/ActorDetector.md",
+    "Objects/Prefab/Eyes.md",
+    "Objects/Artifacts.md",
+    "Objects/breakable blocks.md",
+    "Objects/Camera Stand.md",
+    "Objects/Climbables.md",
+    "Objects/Doors.md",
+    "Objects/Key.md",
+    "Objects/Platforming Challenge Rooms.md",
+    "Objects/Preview Camera.md",
+    "References/Art.md",
+    "References/Articles.md",
+    "References/Audio.md",
+    "References/Code Examples.md",
+    "Systems/aim.md",
+    "Systems/Camera.md",
+    "Systems/Charms.md",
+    "Systems/Game Modes.md",
+    "Systems/Last Safe Ground.md",
+    "Systems/Pre Game Settings.md",
+    "Systems/Quick Save.md",
+    "Systems/Save System.md",
+    "Systems/Saving and Loading.md",
+    "Systems/Tracker.md",
+    "Templates/Ability Template.md",
+    "Templates/Category Template.md",
+    "Templates/Entry Template.md",
+    "Templates/Games Template.md",
+    "Upgrades/Dash Upgrades.md",
+    "WIP/Ability Ideas.md",
+    "WIP/Ability Interactions.md",
+    "WIP/Animation.md",
+    "WIP/Art.md",
+    "WIP/Dungeons.md",
+    "WIP/Enemies and Hazards to add.md",
+    "WIP/Fix me.md",
+    "WIP/Game Colors.md",
+    "WIP/Hazards to add.md",
+    "WIP/Mechanics to add.md",
+    "WIP/Objects to add.md",
+    "WIP/Other Game Stuff to look at.md",
+    "WIP/Things that need to be created.md",
+    "WIP/Work In Progress.md",
+    "index.md",
+    "README.md",
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
+  ],
+  "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
+  ],
+  "fileInfo": {
+    "Abilities & States/Bash.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1361,
+      "exportedPath": "abilities-&-states/bash.html",
+      "dependencies": []
+    },
+    "Abilities & States/Belly Slide.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 388,
+      "exportedPath": "abilities-&-states/belly-slide.html",
+      "dependencies": []
+    },
+    "Abilities & States/Belly Slide Dash.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 323,
+      "exportedPath": "abilities-&-states/belly-slide-dash.html",
+      "dependencies": []
+    },
+    "Abilities & States/Belly Slide Hop.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 474,
+      "exportedPath": "abilities-&-states/belly-slide-hop.html",
+      "dependencies": []
+    },
+    "Abilities & States/Bonk.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 233,
+      "exportedPath": "abilities-&-states/bonk.html",
+      "dependencies": []
+    },
+    "Abilities & States/Burrow.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 599,
+      "exportedPath": "abilities-&-states/burrow.html",
+      "dependencies": []
+    },
+    "Abilities & States/Crouch.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 509,
+      "exportedPath": "abilities-&-states/crouch.html",
+      "dependencies": []
+    },
+    "Abilities & States/Crouch Walk.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 502,
+      "exportedPath": "abilities-&-states/crouch-walk.html",
+      "dependencies": []
+    },
+    "Abilities & States/Dash Air.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 486,
+      "exportedPath": "abilities-&-states/dash-air.html",
+      "dependencies": []
+    },
+    "Abilities & States/Dash Climb.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 418,
+      "exportedPath": "abilities-&-states/dash-climb.html",
+      "dependencies": []
+    },
+    "Abilities & States/Dash Down.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 448,
+      "exportedPath": "abilities-&-states/dash-down.html",
+      "dependencies": []
+    },
+    "Abilities & States/Dash Ground.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 380,
+      "exportedPath": "abilities-&-states/dash-ground.html",
+      "dependencies": []
+    },
+    "Abilities & States/Dash Jump.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 498,
+      "exportedPath": "abilities-&-states/dash-jump.html",
+      "dependencies": []
+    },
+    "Abilities & States/Dash Up.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 404,
+      "exportedPath": "abilities-&-states/dash-up.html",
+      "dependencies": []
+    },
+    "Abilities & States/Dash Wall.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 499,
+      "exportedPath": "abilities-&-states/dash-wall.html",
+      "dependencies": []
+    },
+    "Abilities & States/Dive.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 632,
+      "exportedPath": "abilities-&-states/dive.html",
+      "dependencies": []
+    },
+    "Abilities & States/Dive Hop.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 564,
+      "exportedPath": "abilities-&-states/dive-hop.html",
+      "dependencies": []
+    },
+    "Abilities & States/Double Jump.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 905,
+      "exportedPath": "abilities-&-states/double-jump.html",
+      "dependencies": []
+    },
+    "Abilities & States/Fall.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 449,
+      "exportedPath": "abilities-&-states/fall.html",
+      "dependencies": []
+    },
+    "Abilities & States/Glide.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1131,
+      "exportedPath": "abilities-&-states/glide.html",
+      "dependencies": []
+    },
+    "Abilities & States/Grapple Hook.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1849,
+      "exportedPath": "abilities-&-states/grapple-hook.html",
+      "dependencies": []
+    },
+    "Abilities & States/Grind.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 461,
+      "exportedPath": "abilities-&-states/grind.html",
+      "dependencies": []
+    },
+    "Abilities & States/Ground Pound.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1137,
+      "exportedPath": "abilities-&-states/ground-pound.html",
+      "dependencies": []
+    },
+    "Abilities & States/Ground Pound Bounce.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 537,
+      "exportedPath": "abilities-&-states/ground-pound-bounce.html",
+      "dependencies": []
+    },
+    "Abilities & States/Ground Pound Jump.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 533,
+      "exportedPath": "abilities-&-states/ground-pound-jump.html",
+      "dependencies": []
+    },
+    "Abilities & States/Ground Pound Land.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 263,
+      "exportedPath": "abilities-&-states/ground-pound-land.html",
+      "dependencies": []
+    },
+    "Abilities & States/Idle.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 240,
+      "exportedPath": "abilities-&-states/idle.html",
+      "dependencies": []
+    },
+    "Abilities & States/Jump.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 683,
+      "exportedPath": "abilities-&-states/jump.html",
+      "dependencies": []
+    },
+    "Abilities & States/Jump Apex.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 421,
+      "exportedPath": "abilities-&-states/jump-apex.html",
+      "dependencies": []
+    },
+    "Abilities & States/Jump Crouch.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 461,
+      "exportedPath": "abilities-&-states/jump-crouch.html",
+      "dependencies": []
+    },
+    "Abilities & States/Jump Crouch Charged.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 684,
+      "exportedPath": "abilities-&-states/jump-crouch-charged.html",
+      "dependencies": []
+    },
+    "Abilities & States/Jump Flip.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 700,
+      "exportedPath": "abilities-&-states/jump-flip.html",
+      "dependencies": []
+    },
+    "Abilities & States/Long Jump.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 754,
+      "exportedPath": "abilities-&-states/long-jump.html",
+      "dependencies": []
+    },
+    "Abilities & States/Roll.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 671,
+      "exportedPath": "abilities-&-states/roll.html",
+      "dependencies": []
+    },
+    "Abilities & States/Roll Dash.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 304,
+      "exportedPath": "abilities-&-states/roll-dash.html",
+      "dependencies": []
+    },
+    "Abilities & States/Roll Jump.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 430,
+      "exportedPath": "abilities-&-states/roll-jump.html",
+      "dependencies": []
+    },
+    "Abilities & States/Shinespark.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 872,
+      "exportedPath": "abilities-&-states/shinespark.html",
+      "dependencies": []
+    },
+    "Abilities & States/Skid.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 324,
+      "exportedPath": "abilities-&-states/skid.html",
+      "dependencies": []
+    },
+    "Abilities & States/Swim.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 361,
+      "exportedPath": "abilities-&-states/swim.html",
+      "dependencies": []
+    },
+    "Abilities & States/Swim Dash.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 289,
+      "exportedPath": "abilities-&-states/swim-dash.html",
+      "dependencies": []
+    },
+    "Abilities & States/Trapeze.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 274,
+      "exportedPath": "abilities-&-states/trapeze.html",
+      "dependencies": []
+    },
+    "Abilities & States/Walk.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 299,
+      "exportedPath": "abilities-&-states/walk.html",
+      "dependencies": []
+    },
+    "Abilities & States/Wall Grab.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 394,
+      "exportedPath": "abilities-&-states/wall-grab.html",
+      "dependencies": []
+    },
+    "Abilities & States/Wall Jump.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 822,
+      "exportedPath": "abilities-&-states/wall-jump.html",
+      "dependencies": []
+    },
+    "Abilities & States/Wall Slide.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 352,
+      "exportedPath": "abilities-&-states/wall-slide.html",
+      "dependencies": []
+    },
+    "Actor/Enemies/Chaser.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 235,
+      "exportedPath": "actor/enemies/chaser.html",
+      "dependencies": []
+    },
+    "Actor/Enemies/Spike E Top.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 228,
+      "exportedPath": "actor/enemies/spike-e-top.html",
+      "dependencies": []
+    },
+    "Actor/Enemies/Spiked Jumper.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 229,
+      "exportedPath": "actor/enemies/spiked-jumper.html",
+      "dependencies": []
+    },
+    "Actor/Enemies/Wall E Crawler.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 196,
+      "exportedPath": "actor/enemies/wall-e-crawler.html",
+      "dependencies": []
+    },
+    "Actor/Player.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 220,
+      "exportedPath": "actor/player.html",
+      "dependencies": []
+    },
+    "Categories/Environments.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 158,
+      "exportedPath": "categories/environments.html",
+      "dependencies": []
+    },
+    "Categories/Inspirations.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 178,
+      "exportedPath": "categories/inspirations.html",
+      "dependencies": []
+    },
+    "Categories/Locations.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 169,
+      "exportedPath": "categories/locations.html",
+      "dependencies": []
+    },
+    "Controls/Controls.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 301,
+      "exportedPath": "controls/controls.html",
+      "dependencies": []
+    },
+    "Controls/Right Stick.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 177,
+      "exportedPath": "controls/right-stick.html",
+      "dependencies": []
+    },
+    "Enviroments/Water.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 111,
+      "exportedPath": "enviroments/water.html",
+      "dependencies": []
+    },
+    "Enviroments/Wind.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 158,
+      "exportedPath": "enviroments/wind.html",
+      "dependencies": []
+    },
+    "Functions/Gravity.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 137,
+      "exportedPath": "functions/gravity.html",
+      "dependencies": []
+    },
+    "Games/Genre/Metroidvania.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 223,
+      "exportedPath": "games/genre/metroidvania.html",
+      "dependencies": []
+    },
+    "Games/A Robot Named Fight.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 852,
+      "exportedPath": "games/a-robot-named-fight.html",
+      "dependencies": []
+    },
+    "Games/Banjo Tooie.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 483,
+      "exportedPath": "games/banjo-tooie.html",
+      "dependencies": []
+    },
+    "Games/Celeste.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1162,
+      "exportedPath": "games/celeste.html",
+      "dependencies": []
+    },
+    "Games/Convergence LoL.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 982,
+      "exportedPath": "games/convergence-lol.html",
+      "dependencies": []
+    },
+    "Games/Demon Turf Neon Splash.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1002,
+      "exportedPath": "games/demon-turf-neon-splash.html",
+      "dependencies": []
+    },
+    "Games/Disney Illusion Island.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 504,
+      "exportedPath": "games/disney-illusion-island.html",
+      "dependencies": []
+    },
+    "Games/Donkey Kong Tropical Freeze.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 521,
+      "exportedPath": "games/donkey-kong-tropical-freeze.html",
+      "dependencies": []
+    },
+    "Games/Guacamelee 2.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1713,
+      "exportedPath": "games/guacamelee-2.html",
+      "dependencies": []
+    },
+    "Games/Haak.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1000,
+      "exportedPath": "games/haak.html",
+      "dependencies": []
+    },
+    "Games/Hollow Knight.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 939,
+      "exportedPath": "games/hollow-knight.html",
+      "dependencies": []
+    },
+    "Games/Insect Adventure.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 603,
+      "exportedPath": "games/insect-adventure.html",
+      "dependencies": []
+    },
+    "Games/Lone Fungus.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1061,
+      "exportedPath": "games/lone-fungus.html",
+      "dependencies": []
+    },
+    "Games/Metroid Dread.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1255,
+      "exportedPath": "games/metroid-dread.html",
+      "dependencies": []
+    },
+    "Games/Ori and the Blind Forest.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1361,
+      "exportedPath": "games/ori-and-the-blind-forest.html",
+      "dependencies": []
+    },
+    "Games/Ori and the Will of the Wisps.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1794,
+      "exportedPath": "games/ori-and-the-will-of-the-wisps.html",
+      "dependencies": []
+    },
+    "Games/Prince of Persia Lost Crown.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1695,
+      "exportedPath": "games/prince-of-persia-lost-crown.html",
+      "dependencies": []
+    },
+    "Games/Sheepo.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1034,
+      "exportedPath": "games/sheepo.html",
+      "dependencies": []
+    },
+    "Games/Steamworld Dig 2.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1302,
+      "exportedPath": "games/steamworld-dig-2.html",
+      "dependencies": []
+    },
+    "Games/Super Fancy Pants Adventure.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 759,
+      "exportedPath": "games/super-fancy-pants-adventure.html",
+      "dependencies": []
+    },
+    "Games/Super Mario Odyssey.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 876,
+      "exportedPath": "games/super-mario-odyssey.html",
+      "dependencies": []
+    },
+    "Games/Super Mario Wonder.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 766,
+      "exportedPath": "games/super-mario-wonder.html",
+      "dependencies": []
+    },
+    "Games/Super Mario World.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 580,
+      "exportedPath": "games/super-mario-world.html",
+      "dependencies": []
+    },
+    "Games/Super Meat Boy.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 822,
+      "exportedPath": "games/super-meat-boy.html",
+      "dependencies": []
+    },
+    "Games/The End is Neigh.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 637,
+      "exportedPath": "games/the-end-is-neigh.html",
+      "dependencies": []
+    },
+    "Games/Yooka-Laylee and the Impossible Lair.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 855,
+      "exportedPath": "games/yooka-laylee-and-the-impossible-lair.html",
+      "dependencies": []
+    },
+    "Godot/Godot.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 62,
+      "exportedPath": "godot/godot.html",
+      "dependencies": []
+    },
+    "Godot/Godot Fubars.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 168,
+      "exportedPath": "godot/godot-fubars.html",
+      "dependencies": []
+    },
+    "Godot/Godot Plugins.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1125,
+      "exportedPath": "godot/godot-plugins.html",
+      "dependencies": []
+    },
+    "Locations/Cave.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 168,
+      "exportedPath": "locations/cave.html",
+      "dependencies": []
+    },
+    "Locations/Cold.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 293,
+      "exportedPath": "locations/cold.html",
+      "dependencies": []
+    },
+    "Locations/Desert.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 210,
+      "exportedPath": "locations/desert.html",
+      "dependencies": []
+    },
+    "Locations/Forest.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 98,
+      "exportedPath": "locations/forest.html",
+      "dependencies": []
+    },
+    "Locations/Grotto.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 173,
+      "exportedPath": "locations/grotto.html",
+      "dependencies": []
+    },
+    "Locations/Hot.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 236,
+      "exportedPath": "locations/hot.html",
+      "dependencies": []
+    },
+    "Locations/Under Water.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 217,
+      "exportedPath": "locations/under-water.html",
+      "dependencies": []
+    },
+    "Objects/Hazards/Falling Spike.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 240,
+      "exportedPath": "objects/hazards/falling-spike.html",
+      "dependencies": []
+    },
+    "Objects/Hazards/Moving Spike.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 194,
+      "exportedPath": "objects/hazards/moving-spike.html",
+      "dependencies": []
+    },
+    "Objects/Hazards/Retractable Spike.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 159,
+      "exportedPath": "objects/hazards/retractable-spike.html",
+      "dependencies": []
+    },
+    "Objects/Hazards/Smasher.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 294,
+      "exportedPath": "objects/hazards/smasher.html",
+      "dependencies": []
+    },
+    "Objects/Hazards/Spinning Hazard.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 187,
+      "exportedPath": "objects/hazards/spinning-hazard.html",
+      "dependencies": []
+    },
+    "Objects/Hazards/Triggered Turret.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 158,
+      "exportedPath": "objects/hazards/triggered-turret.html",
+      "dependencies": []
+    },
+    "Objects/Hazards/Turret.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 354,
+      "exportedPath": "objects/hazards/turret.html",
+      "dependencies": []
+    },
+    "Objects/Interactables/Bump Block.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 205,
+      "exportedPath": "objects/interactables/bump-block.html",
+      "dependencies": []
+    },
+    "Objects/Interactables/Grind Rail.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1336,
+      "exportedPath": "objects/interactables/grind-rail.html",
+      "dependencies": []
+    },
+    "Objects/Interactables/Trapeze Bar.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 227,
+      "exportedPath": "objects/interactables/trapeze-bar.html",
+      "dependencies": []
+    },
+    "Objects/Interactables/Waypoint.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 607,
+      "exportedPath": "objects/interactables/waypoint.html",
+      "dependencies": []
+    },
+    "Objects/Prefab/ActorDetector.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 166,
+      "exportedPath": "objects/prefab/actordetector.html",
+      "dependencies": []
+    },
+    "Objects/breakable blocks.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 210,
+      "exportedPath": "objects/breakable-blocks.html",
+      "dependencies": []
+    },
+    "Objects/Climbables.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 241,
+      "exportedPath": "objects/climbables.html",
+      "dependencies": []
+    },
+    "Objects/Doors.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 195,
+      "exportedPath": "objects/doors.html",
+      "dependencies": []
+    },
+    "Objects/Platforming Challenge Rooms.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 238,
+      "exportedPath": "objects/platforming-challenge-rooms.html",
+      "dependencies": []
+    },
+    "Objects/Preview Camera.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 151,
+      "exportedPath": "objects/preview-camera.html",
+      "dependencies": []
+    },
+    "Systems/aim.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 121,
+      "exportedPath": "systems/aim.html",
+      "dependencies": []
+    },
+    "Systems/Camera.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 786,
+      "exportedPath": "systems/camera.html",
+      "dependencies": []
+    },
+    "Systems/Saving and Loading.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 300,
+      "exportedPath": "systems/saving-and-loading.html",
+      "dependencies": []
+    },
+    "index.md": {
+      "modifiedTime": 1709279785344,
+      "sourceSize": 1509,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 85147,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 20488,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 37375,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 236,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1709279906873,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "Abilities & States/Burrow Dash.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 364,
+      "exportedPath": "abilities-&-states/burrow-dash.html",
+      "dependencies": []
+    },
+    "Abilities & States/Dash Omni.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 270,
+      "exportedPath": "abilities-&-states/dash-omni.html",
+      "dependencies": []
+    },
+    "Abilities & States/Jump Consecutive.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 270,
+      "exportedPath": "abilities-&-states/jump-consecutive.html",
+      "dependencies": []
+    },
+    "Abilities & States/Pogo.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 292,
+      "exportedPath": "abilities-&-states/pogo.html",
+      "dependencies": []
+    },
+    "Abilities & States/Speed Boost.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 551,
+      "exportedPath": "abilities-&-states/speed-boost.html",
+      "dependencies": []
+    },
+    "Abilities & States/Spin.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 1343,
+      "exportedPath": "abilities-&-states/spin.html",
+      "dependencies": []
+    },
+    "Abilities & States/Wall Climb.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 576,
+      "exportedPath": "abilities-&-states/wall-climb.html",
+      "dependencies": []
+    },
+    "Abilities & States/Wall Run.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 416,
+      "exportedPath": "abilities-&-states/wall-run.html",
+      "dependencies": []
+    },
+    "Actor/Enemies/Chomper.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 313,
+      "exportedPath": "actor/enemies/chomper.html",
+      "dependencies": []
+    },
+    "Articles/Game Juice.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 221,
+      "exportedPath": "articles/game-juice.html",
+      "dependencies": []
+    },
+    "Articles/How to make a platformer feel good.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 2563,
+      "exportedPath": "articles/how-to-make-a-platformer-feel-good.html",
+      "dependencies": []
+    },
+    "Categories/Abilities.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 269,
+      "exportedPath": "categories/abilities.html",
+      "dependencies": []
+    },
+    "Categories/Dashes.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 158,
+      "exportedPath": "categories/dashes.html",
+      "dependencies": []
+    },
+    "Categories/Enemies.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 122,
+      "exportedPath": "categories/enemies.html",
+      "dependencies": []
+    },
+    "Categories/Hazards.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 124,
+      "exportedPath": "categories/hazards.html",
+      "dependencies": []
+    },
+    "Categories/Mechanics.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 127,
+      "exportedPath": "categories/mechanics.html",
+      "dependencies": []
+    },
+    "Categories/Platforms.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 1812,
+      "exportedPath": "categories/platforms.html",
+      "dependencies": []
+    },
+    "Categories/States.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 138,
+      "exportedPath": "categories/states.html",
+      "dependencies": []
+    },
+    "Categories/Systems.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 124,
+      "exportedPath": "categories/systems.html",
+      "dependencies": []
+    },
+    "Categories/Upgrades.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 707,
+      "exportedPath": "categories/upgrades.html",
+      "dependencies": []
+    },
+    "Enviroments/Lava.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 147,
+      "exportedPath": "enviroments/lava.html",
+      "dependencies": []
+    },
+    "Enviroments/Sand.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 132,
+      "exportedPath": "enviroments/sand.html",
+      "dependencies": []
+    },
+    "Enviroments/Snow.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 132,
+      "exportedPath": "enviroments/snow.html",
+      "dependencies": []
+    },
+    "Game Modes/Balloon Hunt.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 170,
+      "exportedPath": "game-modes/balloon-hunt.html",
+      "dependencies": []
+    },
+    "Game Modes/Challenge Runs.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 188,
+      "exportedPath": "game-modes/challenge-runs.html",
+      "dependencies": []
+    },
+    "Game Modes/Floor is Lava.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 106,
+      "exportedPath": "game-modes/floor-is-lava.html",
+      "dependencies": []
+    },
+    "Game Modes/Randomizer.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 1351,
+      "exportedPath": "game-modes/randomizer.html",
+      "dependencies": []
+    },
+    "Games/Series/Guacamelee Series.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 145,
+      "exportedPath": "games/series/guacamelee-series.html",
+      "dependencies": []
+    },
+    "Games/Series/Mario Series.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 697,
+      "exportedPath": "games/series/mario-series.html",
+      "dependencies": []
+    },
+    "Games/Series/Metroid Series.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 466,
+      "exportedPath": "games/series/metroid-series.html",
+      "dependencies": []
+    },
+    "Games/Series/Ori Series.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 213,
+      "exportedPath": "games/series/ori-series.html",
+      "dependencies": []
+    },
+    "Games/Guacamelee.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 1616,
+      "exportedPath": "games/guacamelee.html",
+      "dependencies": []
+    },
+    "Games/Islets.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 850,
+      "exportedPath": "games/islets.html",
+      "dependencies": []
+    },
+    "Godot/Footstep Plugin.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 187,
+      "exportedPath": "godot/footstep-plugin.html",
+      "dependencies": []
+    },
+    "Godot/Music Plugin.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 189,
+      "exportedPath": "godot/music-plugin.html",
+      "dependencies": []
+    },
+    "Mechanics/Other Games/Pspeed.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 1867,
+      "exportedPath": "mechanics/other-games/pspeed.html",
+      "dependencies": []
+    },
+    "Mechanics/Bonk.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 460,
+      "exportedPath": "mechanics/bonk.html",
+      "dependencies": []
+    },
+    "Mechanics/Ledge Jump Boost.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 216,
+      "exportedPath": "mechanics/ledge-jump-boost.html",
+      "dependencies": []
+    },
+    "Mechanics/Regrab.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 966,
+      "exportedPath": "mechanics/regrab.html",
+      "dependencies": []
+    },
+    "Mechanics/Stop On Ledge.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 179,
+      "exportedPath": "mechanics/stop-on-ledge.html",
+      "dependencies": []
+    },
+    "Menus/Map.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 749,
+      "exportedPath": "menus/map.html",
+      "dependencies": []
+    },
+    "Menus/Stats Screen.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 919,
+      "exportedPath": "menus/stats-screen.html",
+      "dependencies": []
+    },
+    "Objects/Hazards/No Damage Spikes.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 237,
+      "exportedPath": "objects/hazards/no-damage-spikes.html",
+      "dependencies": []
+    },
+    "Objects/Platforms/Countdown Platform.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 314,
+      "exportedPath": "objects/platforms/countdown-platform.html",
+      "dependencies": []
+    },
+    "Objects/Platforms/Direction Changing Platform.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 183,
+      "exportedPath": "objects/platforms/direction-changing-platform.html",
+      "dependencies": []
+    },
+    "Objects/Platforms/Disappearing Platform.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 299,
+      "exportedPath": "objects/platforms/disappearing-platform.html",
+      "dependencies": []
+    },
+    "Objects/Platforms/Expanding Platform.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 148,
+      "exportedPath": "objects/platforms/expanding-platform.html",
+      "dependencies": []
+    },
+    "Objects/Platforms/Falling Platform.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 231,
+      "exportedPath": "objects/platforms/falling-platform.html",
+      "dependencies": []
+    },
+    "Objects/Platforms/Flip Platform.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 317,
+      "exportedPath": "objects/platforms/flip-platform.html",
+      "dependencies": []
+    },
+    "Objects/Platforms/Floating Platform.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 272,
+      "exportedPath": "objects/platforms/floating-platform.html",
+      "dependencies": []
+    },
+    "Objects/Platforms/Moving Platform.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 204,
+      "exportedPath": "objects/platforms/moving-platform.html",
+      "dependencies": []
+    },
+    "Objects/Platforms/Path Follow Platform.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 146,
+      "exportedPath": "objects/platforms/path-follow-platform.html",
+      "dependencies": []
+    },
+    "Objects/Platforms/Semisolid.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 348,
+      "exportedPath": "objects/platforms/semisolid.html",
+      "dependencies": []
+    },
+    "Objects/Platforms/Shrinking Platform.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 237,
+      "exportedPath": "objects/platforms/shrinking-platform.html",
+      "dependencies": []
+    },
+    "Objects/Platforms/Stretching Platform.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 223,
+      "exportedPath": "objects/platforms/stretching-platform.html",
+      "dependencies": []
+    },
+    "Objects/Prefab/Eyes.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 218,
+      "exportedPath": "objects/prefab/eyes.html",
+      "dependencies": []
+    },
+    "Objects/Artifacts.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 136,
+      "exportedPath": "objects/artifacts.html",
+      "dependencies": []
+    },
+    "Objects/Camera Stand.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 260,
+      "exportedPath": "objects/camera-stand.html",
+      "dependencies": []
+    },
+    "Objects/Key.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 200,
+      "exportedPath": "objects/key.html",
+      "dependencies": []
+    },
+    "References/Art.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 269,
+      "exportedPath": "references/art.html",
+      "dependencies": []
+    },
+    "References/Articles.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 255,
+      "exportedPath": "references/articles.html",
+      "dependencies": []
+    },
+    "References/Audio.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 67,
+      "exportedPath": "references/audio.html",
+      "dependencies": []
+    },
+    "References/Code Examples.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 76,
+      "exportedPath": "references/code-examples.html",
+      "dependencies": []
+    },
+    "Systems/Charms.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 454,
+      "exportedPath": "systems/charms.html",
+      "dependencies": []
+    },
+    "Systems/Game Modes.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 330,
+      "exportedPath": "systems/game-modes.html",
+      "dependencies": []
+    },
+    "Systems/Last Safe Ground.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 329,
+      "exportedPath": "systems/last-safe-ground.html",
+      "dependencies": []
+    },
+    "Systems/Pre Game Settings.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 784,
+      "exportedPath": "systems/pre-game-settings.html",
+      "dependencies": []
+    },
+    "Systems/Quick Save.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 131,
+      "exportedPath": "systems/quick-save.html",
+      "dependencies": []
+    },
+    "Systems/Save System.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 375,
+      "exportedPath": "systems/save-system.html",
+      "dependencies": []
+    },
+    "Systems/Tracker.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 264,
+      "exportedPath": "systems/tracker.html",
+      "dependencies": []
+    },
+    "Templates/Ability Template.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 108,
+      "exportedPath": "templates/ability-template.html",
+      "dependencies": []
+    },
+    "Templates/Category Template.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 74,
+      "exportedPath": "templates/category-template.html",
+      "dependencies": []
+    },
+    "Templates/Entry Template.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 39,
+      "exportedPath": "templates/entry-template.html",
+      "dependencies": []
+    },
+    "Templates/Games Template.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 256,
+      "exportedPath": "templates/games-template.html",
+      "dependencies": []
+    },
+    "Upgrades/Dash Upgrades.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 971,
+      "exportedPath": "upgrades/dash-upgrades.html",
+      "dependencies": []
+    },
+    "WIP/Ability Ideas.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 808,
+      "exportedPath": "wip/ability-ideas.html",
+      "dependencies": []
+    },
+    "WIP/Ability Interactions.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 3636,
+      "exportedPath": "wip/ability-interactions.html",
+      "dependencies": []
+    },
+    "WIP/Animation.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 233,
+      "exportedPath": "wip/animation.html",
+      "dependencies": []
+    },
+    "WIP/Art.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 261,
+      "exportedPath": "wip/art.html",
+      "dependencies": []
+    },
+    "WIP/Dungeons.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 1202,
+      "exportedPath": "wip/dungeons.html",
+      "dependencies": []
+    },
+    "WIP/Enemies and Hazards to add.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 996,
+      "exportedPath": "wip/enemies-and-hazards-to-add.html",
+      "dependencies": []
+    },
+    "WIP/Fix me.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 109,
+      "exportedPath": "wip/fix-me.html",
+      "dependencies": []
+    },
+    "WIP/Game Colors.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 376,
+      "exportedPath": "wip/game-colors.html",
+      "dependencies": []
+    },
+    "WIP/Hazards to add.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 286,
+      "exportedPath": "wip/hazards-to-add.html",
+      "dependencies": []
+    },
+    "WIP/Mechanics to add.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 378,
+      "exportedPath": "wip/mechanics-to-add.html",
+      "dependencies": []
+    },
+    "WIP/Objects to add.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 2484,
+      "exportedPath": "wip/objects-to-add.html",
+      "dependencies": []
+    },
+    "WIP/Other Game Stuff to look at.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 253,
+      "exportedPath": "wip/other-game-stuff-to-look-at.html",
+      "dependencies": []
+    },
+    "WIP/Things that need to be created.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 329,
+      "exportedPath": "wip/things-that-need-to-be-created.html",
+      "dependencies": []
+    },
+    "WIP/Work In Progress.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 152,
+      "exportedPath": "wip/work-in-progress.html",
+      "dependencies": []
+    },
+    "README.md": {
+      "modifiedTime": 1709279851035,
+      "sourceSize": 11,
+      "exportedPath": "readme.html",
+      "dependencies": []
+    }
+  }
+}
